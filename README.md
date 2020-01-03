@@ -14,6 +14,8 @@ Self-contained NodeMCU-firmware Lua example for Deek-Robot 0.91" kit ([here on A
 bit file gpio i2c node tmr u8g2 uart wifi
 ```
 
+Also ensure you choose `ssd1306_i2c_128x32_univision` as the I²C display in the build UI's dropdown (for this example, it is irrelevant what you choose for the SPI dropdown, and the default font list of `font_6x10_tf,font_unifont_t_symbols` will suffice).
+
 Flash said firmware using e.g. [esptool.py](https://github.com/themadinventor/esptool):
 
 ```
